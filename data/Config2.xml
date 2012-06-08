@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!--
+This is an EmCalc configuration XML file which contains
+the gas content,
+the numbers of the boilers,
+the monthly average temperature,
+the air factor.
+
+Created with EmCalc version 1.0 Beta1 on Sun, 22 Feb 2004 09:07:01
+-->
+  <gasContents>
+    <content name="C7H16" value="0.01"/>
+    <content name="C4H10" value="0.14"/>
+    <content name="C3H8" value="0.66"/>
+    <content name="CH4" value="97.06"/>
+    <content name="C6H14" value="0.02"/>
+    <content name="N2" value="0.59"/>
+    <content name="C8H18" value="0.01"/>
+    <content name="C5H12" value="0.04"/>
+    <content name="CO2" value="1.24"/>
+    <content name="C2H6" value="0.23"/>
+  </gasContents>
+  <boilers>
+    <boiler type="Termoteka 25" count="11"/>
+    <boiler type="Feg C24" count="4"/>
+    <boiler type="Feg C21" count="3"/>
+    <boiler type="Feg C18" count="2"/>
+    <boiler type="Feg C30" count="6"/>
+  </boilers>
+  <temperature value="6"/>
+  <airFactor value="1.2"/>
+</config>
