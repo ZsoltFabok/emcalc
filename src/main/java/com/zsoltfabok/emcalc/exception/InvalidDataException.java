@@ -1,4 +1,4 @@
-package emcalc.exception;
+package com.zsoltfabok.emcalc.exception;
 
 
 public class InvalidDataException extends Exception

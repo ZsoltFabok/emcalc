@@ -1,4 +1,4 @@
-package emcalc.xml;
+package com.zsoltfabok.emcalc.xml;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,9 +1,9 @@
-package emcalc.calculation;
+package com.zsoltfabok.emcalc.calculation;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-import emcalc.exception.NotInDomainException;
+import com.zsoltfabok.emcalc.exception.NotInDomainException;
 
 // Referenced classes of package calculation:
 //            Interval, Calculate

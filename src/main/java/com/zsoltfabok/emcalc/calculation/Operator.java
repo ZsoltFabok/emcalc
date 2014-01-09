@@ -1,4 +1,4 @@
-package emcalc.calculation;
+package com.zsoltfabok.emcalc.calculation;
 
 
 public class Operator

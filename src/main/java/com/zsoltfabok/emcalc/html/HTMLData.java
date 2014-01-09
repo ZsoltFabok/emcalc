@@ -1,4 +1,4 @@
-package emcalc.html;
+package com.zsoltfabok.emcalc.html;
 
 import java.io.*;
 import java.text.*;

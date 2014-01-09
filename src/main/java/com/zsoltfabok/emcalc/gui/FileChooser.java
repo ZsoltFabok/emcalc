@@ -1,4 +1,4 @@
-package emcalc.gui;
+package com.zsoltfabok.emcalc.gui;
 
 import java.io.File;
 import javax.swing.JFileChooser;

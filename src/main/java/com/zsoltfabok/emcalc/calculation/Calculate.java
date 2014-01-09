@@ -1,4 +1,4 @@
-package emcalc.calculation;
+package com.zsoltfabok.emcalc.calculation;
 
 import java.math.BigDecimal;
 import java.util.Stack;

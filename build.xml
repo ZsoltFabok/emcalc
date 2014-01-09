@@ -21,7 +21,7 @@
     <jar destfile="${target}/emcalc_beta.jar">
       <fileset dir="${classes}"/>
       <manifest>
-        <attribute name="Main-Class" value="emcalc.gui.EmCalcGUI"/>
+        <attribute name="Main-Class" value="com.zsoltfabok.emcalc.gui.EmCalcGUI"/>
       </manifest>
     </jar>
   </target>

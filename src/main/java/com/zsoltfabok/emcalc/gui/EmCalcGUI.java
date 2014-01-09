@@ -1,4 +1,4 @@
-package emcalc.gui;
+package com.zsoltfabok.emcalc.gui;
 
 import java.awt.*;
 import java.awt.event.*;

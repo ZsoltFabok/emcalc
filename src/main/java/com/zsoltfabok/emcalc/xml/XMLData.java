@@ -1,4 +1,4 @@
-package emcalc.xml;
+package com.zsoltfabok.emcalc.xml;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,9 +24,9 @@ import org.w3c.dom.Text;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-import emcalc.calculation.Check;
-import emcalc.exception.InvalidConfigFormatException;
-import emcalc.exception.InvalidDataException;
+import com.zsoltfabok.emcalc.calculation.Check;
+import com.zsoltfabok.emcalc.exception.InvalidConfigFormatException;
+import com.zsoltfabok.emcalc.exception.InvalidDataException;
 
 // Referenced classes of package xml:
 //            XMLWriter

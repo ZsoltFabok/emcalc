@@ -1,4 +1,4 @@
-package emcalc.gui;
+package com.zsoltfabok.emcalc.gui;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -40,13 +40,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-import emcalc.calculation.Check;
-import emcalc.calculation.Consuption;
-import emcalc.exception.InvalidConfigFormatException;
-import emcalc.exception.InvalidDataException;
-import emcalc.html.HTMLData;
-import emcalc.html.NamedData;
-import emcalc.xml.XMLData;
+import com.zsoltfabok.emcalc.calculation.Check;
+import com.zsoltfabok.emcalc.calculation.Consuption;
+import com.zsoltfabok.emcalc.exception.InvalidConfigFormatException;
+import com.zsoltfabok.emcalc.exception.InvalidDataException;
+import com.zsoltfabok.emcalc.html.HTMLData;
+import com.zsoltfabok.emcalc.html.NamedData;
+import com.zsoltfabok.emcalc.xml.XMLData;
 
 // Referenced classes of package gui:
 //            FileChooser
