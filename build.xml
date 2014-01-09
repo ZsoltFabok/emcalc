@@ -1,0 +1,28 @@
+<project name="emcalc" default="build">
+
+  <property name="src" value="src/main/java"/>
+  <property name="classes" value="target/classes"/>
+  <property name="target" value="target"/>
+
+  <target name="clean">
+    <delete includeemptydirs="true">
+      <fileset dir="${target}" includes="**/*"/>
+    </delete>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="${classes}"/>
+    <javac destdir="${classes}" debug="true" failonerror="true" includeAntRuntime="false">
+      <src path="${src}"/>
+    </javac>
+  </target>
+
+  <target name="build" depends="clean,compile">
+    <jar destfile="${target}/emcalc_beta.jar">
+      <fileset dir="${classes}"/>
+      <manifest>
+        <attribute name="Main-Class" value="emcalc.gui.EmCalcGUI"/>
+      </manifest>
+    </jar>
+  </target>
+</project>
