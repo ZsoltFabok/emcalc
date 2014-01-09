@@ -8,22 +8,23 @@ In 2004 my friend asked me to write him an application - called emcalc - that us
 
 You can build this app by running
 
- ant
+    ant
 
 or
- ant build
+
+    ant build
 
 ### How to start the app
 
 You can start the app with the
 
- run.sh
+    run.sh
 
 ### How to use the app
 
 There are two screenshots at the end of a [related blog post][2] on [my website][3] that will help you with the usage:
 
- http://zsoltfabok.com/blog/2014/01/open-sourcing-emcalc/
+     http://zsoltfabok.com/blog/2014/01/open-sourcing-emcalc/
 
 [1]: https://github.com/ZsoltFabok/emcalc/tree/work
 [2]: http://zsoltfabok.com/blog/2014/01/open-sourcing-emcalc/
